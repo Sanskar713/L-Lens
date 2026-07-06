@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legal Lens</title>
+
+<link rel="stylesheet" href="css\style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <h2 id="welcomeUser"></h2>"
+
+<nav class="navbar">
+
+<div class="logo">
+⚖ Legal Lens
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="crimes.html">Crimes</a></li>
+<li><a href="lawyers.html">Lawyers</a></li>
+<li><a href="judgements.html">Judgements</a></li>
+<li><a href="ipc.html">IPC/BNS</a></li>
+<li><a href="crpc.html">CRPC/BNSS</a></li>
+<li><a href="help.html">Help</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Know Your Rights. Protect Your Future.</h1>
+
+<p>
+Legal Lens is a legal awareness platform designed to help
+citizens understand laws, punishments, rights and legal
+procedures in simple language.
+</p>
+
+<div class="search-box">
+
+<input
+type="text"
+placeholder="Search Cyber Crime, FIR, Theft, Rights...">
+
+<button onclick="homeSearch()">
+Search
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Legal Lens Statistics</h2>
+
+<div class="stats">
+
+<div class="stat-box">
+<h3>100+</h3>
+<p>Legal Topics</p>
+</div>
+
+<div class="stat-box">
+<h3>50+</h3>
+<p>Important Judgements</p>
+</div>
+
+<div class="stat-box">
+<h3>24×7</h3>
+<p>Emergency Information</p>
+</div>
+
+<div class="stat-box">
+<h3>1000+</h3>
+<p>Citizens Reached</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Popular Categories</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>💻 Cyber Crime</h3>
+
+<p>
+UPI Fraud, OTP Scam, Hacking,
+Identity Theft and Online Fraud.
+</p>
+
+<a href="crimes.html" class="btn">
+Learn More
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>🚗 Theft</h3>
+
+<p>
+Vehicle Theft, Mobile Theft,
+Property Theft and Recovery Process.
+</p>
+
+<a href="crimes.html" class="btn">
+Learn More
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>👩 Women Safety</h3>
+
+<p>
+Stalking, Harassment, Violence,
+Workplace Safety Rights.
+</p>
+
+<a href="crimes.html" class="btn">
+Learn More
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>💰 Financial Fraud</h3>
+
+<p>
+Loan Harassment, Investment Fraud,
+Banking and Online Scam Cases.
+</p>
+
+<a href="crimes.html" class="btn">
+Learn More
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Why Choose Legal Lens?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Simple Language</h3>
+<p>
+Complex legal information explained in
+easy-to-understand language.
+</p>
+</div>
+
+<div class="card">
+<h3>Citizen Awareness</h3>
+<p>
+Know your rights and legal remedies.
+</p>
+</div>
+
+<div class="card">
+<h3>Emergency Support</h3>
+<p>
+Important helplines and procedures.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>⚖ Legal Lens</h2>
+
+<p>
+Empowering Citizens Through Legal Awareness
+</p>
+
+<br>
+
+<p>
+© 2026 Legal Lens | PBL Project
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+let name = localStorage.getItem("userName");
+
+if(name){
+    document.getElementById("welcomeUser").innerHTML =
+    "Welcome, " + name + "!";
+}
+</script>
+
+
+</body>
+</html>

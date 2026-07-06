@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal Lens</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login | Legal Lens</title>
 
-    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="css\style.css">
 </head>
+
 <body>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <h1>Legal Lens</h1>
+<div class="login-container">
 
-        <ul>
-            <li>Home</li>
-            <li>Crimes</li>
-            <li>Lawyers</li>
-            <li>Judgements</li>
-            <li>IPC/BNS</li>
-            <li>CrPC/BNSS</li>
-            <li>Help</li>
-        </ul>
-    </nav>
+<div class="login-box">
 
-    <!-- Hero Section -->
-    <section class="hero">
+<h1>⚖ Legal Lens</h1>
 
-        <h2>AI Powered Legal Awareness Platform</h2>
+<p>Citizen Legal Assistance Portal</p>
 
-        <p>
-            Legal Lens helps Indian citizens understand crimes,
-            laws, legal rights and procedures in simple language.
-        </p>
+<form id="loginForm">
 
-        <button>Explore Crimes</button>
+<input type="text"
+id="name"
+placeholder="Enter Your Name"
+required>
 
-    </section>
+<input type="email"
+id="email"
+placeholder="Enter Email"
+required>
 
-    <script src="script.js"></script>
+<input type="text"
+id="city"
+placeholder="Enter City"
+required>
+
+<input type="tel"
+id="contact"
+placeholder="Enter Contact Number"
+required>
+
+<button type="submit" class="btn">
+Login
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>

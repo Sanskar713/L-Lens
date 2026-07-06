@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPC / BNS Information | Legal Lens</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+⚖ Legal Lens
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="crimes.html">Crimes</a></li>
+<li><a href="lawyers.html">Lawyers</a></li>
+<li><a href="judgements.html">Judgements</a></li>
+<li><a href="ipc.html">IPC/BNS</a></li>
+<li><a href="crpc.html">CRPC/BNSS</a></li>
+<li><a href="help.html">Help</a></li>
+</ul>
+<button onclick="logout()" class="btn">
+Logout
+</button>
+</nav>
+
+<div class="page-header">
+
+<h1>IPC / BNS Information</h1>
+
+<p>
+Search crime-related legal sections and punishments.
+</p>
+
+</div>
+
+<section>
+
+<div class="search-box">
+
+<input
+type="text"
+id="crimeSearch"
+placeholder="Search Crime Name...">
+
+<button onclick="searchCrime()">
+Search
+</button>
+
+</div>
+
+<br><br>
+
+<table id="crimeTable">
+
+<tr>
+<th>Crime</th>
+<th>BNS Section</th>
+<th>Punishment</th>
+</tr>
+
+<tr>
+<td>Theft</td>
+<td>303</td>
+<td>Up to 3 Years</td>
+</tr>
+
+<tr>
+<td>Cheating</td>
+<td>318</td>
+<td>Up to 7 Years</td>
+</tr>
+
+<tr>
+<td>Criminal Intimidation</td>
+<td>351</td>
+<td>Fine + Imprisonment</td>
+</tr>
+
+<tr>
+<td>Stalking</td>
+<td>78</td>
+<td>Up to 3 Years</td>
+</tr>
+
+<tr>
+<td>Cyber Fraud</td>
+<td>IT Act</td>
+<td>Fine + Imprisonment</td>
+</tr>
+
+<tr>
+<td>Domestic Violence</td>
+<td>Protection Act</td>
+<td>As Per Court Orders</td>
+</tr>
+
+</table>
+
+</section>
+
+<footer>
+
+<h2>⚖ Legal Lens</h2>
+
+<p>
+Legal Sections Simplified For Citizens
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
