@@ -1,4 +1,4 @@
-# ⚖️ Legal Lens – Citizen Legal Assistance Portal
+⚖️ Legal Lens – Citizen Legal Assistance Portal
 
 Legal Lens is a web-based platform designed to make legal information simple, accessible, and understandable for everyone. The project helps users explore Indian laws, understand their legal rights, and access basic legal guidance through an easy-to-use interface.
 
@@ -6,7 +6,7 @@ This project was developed as part of our **Project-Based Learning (PBL)**.
 
 ---
 
-## 📌 Project Overview
+ 📌 Project Overview
 
 Many citizens find it difficult to understand legal procedures and laws because legal information is often complex and scattered across multiple sources.
 
@@ -20,7 +20,7 @@ Legal Lens aims to bridge this gap by providing a centralized platform where use
 
 ---
 
-## ✨ Features
+ ✨ Features
 
 - 🔐 User Login
 - 📖 IPC Sections
@@ -32,27 +32,27 @@ Legal Lens aims to bridge this gap by providing a centralized platform where use
 
 ---
 
-## 🛠️ Tech Stack
+ 🛠️ Tech Stack
 
-### Frontend
+ Frontend
 - HTML5
 - CSS3
 - JavaScript
 
-### Backend *(Upcoming)*
+ Backend *(Upcoming)*
 - Node.js
 - Express.js
 
-### Database *(Upcoming)*
+ Database *(Upcoming)*
 - MongoDB
 
-### Version Control
+ Version Control
 - Git
 - GitHub
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
 ```
 Legal-Lens/
@@ -70,7 +70,7 @@ Legal-Lens/
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started
 
 ### Clone the Repository
 
@@ -78,7 +78,7 @@ Legal-Lens/
 git clone https://github.com/your-username/legal-lens.git
 ```
 
-### Open the Project
+ Open the Project
 
 Open the project folder in **Visual Studio Code**.
 
@@ -86,7 +86,7 @@ Run the project by opening `index.html` in your browser or by using the **Live S
 
 ---
 
-## 🎯 Future Improvements
+🎯 Future Improvements
 
 - User Authentication
 - MongoDB Database Integration
@@ -100,7 +100,7 @@ Run the project by opening `index.html` in your browser or by using the **Live S
 
 ---
 
-## 👥 Team Members
+👥 Team Members
 
 **Team Name:** Team Turtle
 
@@ -110,7 +110,7 @@ Run the project by opening `index.html` in your browser or by using the **Live S
 
 ---
 
-## 🎓 Project Information
+🎓 Project Information
 
 **Course:** Project-Based Learning (PBL)
 
@@ -118,23 +118,8 @@ Run the project by opening `index.html` in your browser or by using the **Live S
 
 ---
 
-## 📸 Screenshots
 
-Add screenshots of your project here.
-
-Example:
-
-```
-screenshots/
-├── homepage.png
-├── login.png
-├── ipc.png
-└── crime.png
-```
-
----
-
-## 🤝 Contributing
+🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome.
 
@@ -146,13 +131,13 @@ Contributions, suggestions, and improvements are welcome.
 
 ---
 
-## 📄 License
+ 📄 License
 
 This project is developed for educational purposes as part of Project-Based Learning (PBL).
 
 ---
 
-## ⭐ Support
+ ⭐ Support
 
 If you found this project helpful, consider giving it a ⭐ on GitHub.
 
